@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="description" content="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div id="main">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <strong>Using Hashes</strong>
+                            <p>Using hashes may not be the best route for SEO and it may also be unusual for some users which may make them not use the website.<br>
+                            <small>Use cases: Apps, Landing Pages</small>
+                            </p>
+                            <div>
+                                <a href="/">Home</a>
+                                <a href="#about">About</a>
+                                <a href="#contact">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <strong>Using URLs</strong>
+                            <p>Need to configure the webserver to serve the index.html for SPA Route Paths. This option is better for SEO and is more user friendly.<br>
+                            <small>Use cases: Websites</small></p>
+                    <nav>
+                        <a href="/">Home</a>
+                        <a href="/about">About</a>
+                        <a href="/contact">Contact</a>
+                    </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div id="content"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/hash-router.js"></script>
+    <!-- OR -->
+    <script src="/js/url-router.js"></script>
+</body>
+</html>
