@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    Options +FollowSymlinks -MultiViews
+
+    RewriteRule ^$ /index.html [R,L]
+
+</IfModule>
